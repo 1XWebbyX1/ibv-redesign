@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8a1c7df78ad86a767363",
-    "url": "/ibv-redesign/static/css/main.6166558d.chunk.css"
+    "revision": "9b2697be76c3af82e1ac",
+    "url": "/ibv-redesign/static/css/main.f75460c4.chunk.css"
   },
   {
-    "revision": "8a1c7df78ad86a767363",
-    "url": "/ibv-redesign/static/js/main.8a1c7df7.chunk.js"
+    "revision": "9b2697be76c3af82e1ac",
+    "url": "/ibv-redesign/static/js/main.9b2697be.chunk.js"
   },
   {
     "revision": "9af1404446b5535cb7be",
@@ -104,7 +104,7 @@ self.__precacheManifest = [
     "url": "/ibv-redesign/static/media/background.1ca1afab.jpg"
   },
   {
-    "revision": "4c926a32e3b7b6dff8df2cd8cd1dfeb8",
+    "revision": "4d77a2891c32de4c2ed6468f2cdcd1b8",
     "url": "/ibv-redesign/index.html"
   }
 ];
