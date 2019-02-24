@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ibm-redesign/precache-manifest.a5eea0cd6452231ec8ec2602f6607cbc.js"
+  "/ibv-redesign/precache-manifest.c8def110be8e2c36b81551b3d6f3c148.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ibm-redesign/index.html", {
+workbox.routing.registerNavigationRoute("/ibv-redesign/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
