@@ -1,0 +1,24 @@
+
+.btn{
+      display: inline-block;
+      margin: 5px 1%;
+      font-size: 16px;
+      color: #000;
+      height: auto;
+      width: auto;
+      padding: 12px 24px;
+    &--teal{
+      background: #41d6c3;
+      border-color: #41d6c3;
+    }
+    &--purple{
+      background: #9855d4;
+      border-color: #9855d4;
+      color: #fff;
+    }
+    &--white{
+      background: beige;
+      border-color: beige;
+      color: #000;
+    }
+ }

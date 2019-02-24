@@ -1,0 +1,67 @@
+  .Section--data-section{
+    background: white;
+    color: #323232;
+      .data-section__header, .data-section__description{
+        margin-left: 7%; 
+        text-align: left;
+      }
+      .cards-wrap{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .Card{
+          margin: 2%;
+          background-image: linear-gradient(to right top, #f3ecd8,
+          #e4d7c2, #d6c2ad, #c8ad9a, #ba9888, #ba9887, #bb9787,
+          #bb9786, #caab95, #d8bfa5, #e6d4b7, #f3e9ca
+          );
+          a .icon{
+            display: none;
+          }
+          &:hover{
+            transform: scale(1.02);
+            box-shadow: 0px 0px 25px black;
+            background-image: linear-gradient(to right top, #fffee1, #f6f0cb,
+            #efe1b6, #e8d2a2, #e3c28f, #e2c28f, #e1c38e, #e0c38e, #e3d3a1,
+             #e7e2b6, #edf1cb, #f5ffe1
+            );
+          }
+        }
+     }
+  }
+
+  .Section--popular-data-section{
+    background: #f4f4f4;
+      .cards-wrap .Card{
+          margin: 0.5%;
+          background: rgba(60, 120, 190, 0.15);
+
+          &__img{
+            display: none;
+          }
+
+          &__link-wrap{
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: none;
+            a{
+              margin: 1% 0;
+              color: #cc9900;
+              .icon{
+                display: inline-block;
+                margin-left: 10px;
+              }
+              &:hover{
+                color: white;
+                .icon{
+                  margin-left: 20px;
+                }
+              }
+            }
+          }
+
+          &:nth-child(even){
+            background: white;
+          }
+       }
+  }

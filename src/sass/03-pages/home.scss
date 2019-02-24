@@ -1,0 +1,53 @@
+.Home{
+  position: relative;
+  top: 0;
+  left: 0;
+  color: white;
+  background: black;
+  font-weight: 400;
+  font-size: calc(1em + 0.5vw);
+  margin: 0;
+  padding: 0;
+  &__hero-img{
+    position: absolute;
+    top: -50px;
+    right: 0;
+    max-width: 120vw;
+    height: 54vh;
+    box-shadow: none;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.7) , rgba(255, 255, 255, 0.1) );
+    mask-size: cover;
+    mask-position: center;
+  }
+  &__content{
+    position: absolute;
+    top: 10%;
+    left: 3%;
+    text-shadow: 0 0 20px #000;
+    .link{
+      color: #3b6caa;
+      margin-bottom: 10%;
+    }
+ }
+ .figure{
+    margin: 0;
+    position: relative;
+    background: black;
+    height: 45vh;
+    mask-image: linear-gradient(to left, black 60%, rgba(0, 0, 0, 0.5) , rgba(255, 255, 255, 0.1) );
+    mask-size: cover;
+    mask-position: center;
+    mask-type: alpha;
+
+    .figure__mask{
+      position: absolute;
+      left: 0;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to left,rgba(0,0,0,0.3), rgba(0,0,0,0.5), rgba(0,0,0,0.8), #152935 );
+      z-index: 999;
+    }
+  }
+
+}
