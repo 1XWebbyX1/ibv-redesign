@@ -1,47 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "292f713369691eb44a5e",
+    "revision": "05854dc177cace407580",
     "url": "/ibv-redesign/static/css/main.9b618c14.chunk.css"
   },
   {
-    "revision": "292f713369691eb44a5e",
-    "url": "/ibv-redesign/static/js/main.292f7133.chunk.js"
+    "revision": "05854dc177cace407580",
+    "url": "/ibv-redesign/static/js/main.05854dc1.chunk.js"
   },
   {
-    "revision": "7d11efe29ad13380f045",
-    "url": "/ibv-redesign/static/js/runtime~main.7d11efe2.js"
+    "revision": "9af1404446b5535cb7be",
+    "url": "/ibv-redesign/static/js/runtime~main.9af14044.js"
   },
   {
-    "revision": "b2d6b61f16a2b9820623",
-    "url": "/ibv-redesign/static/js/2.b2d6b61f.chunk.js"
-  },
-  {
-    "revision": "29ebf20a9b9a89dee4ca",
-    "url": "/ibv-redesign/static/js/3.29ebf20a.chunk.js"
-  },
-  {
-    "revision": "1179d3b11b7ac45c7e6c",
-    "url": "/ibv-redesign/static/js/4.1179d3b1.chunk.js"
-  },
-  {
-    "revision": "ae2582cce0c908dcd723",
-    "url": "/ibv-redesign/static/js/5.ae2582cc.chunk.js"
-  },
-  {
-    "revision": "59668d5f0b4f4f770719",
-    "url": "/ibv-redesign/static/js/6.59668d5f.chunk.js"
-  },
-  {
-    "revision": "f05609726f82ef225174",
-    "url": "/ibv-redesign/static/js/7.f0560972.chunk.js"
+    "revision": "e592c06ec4c48ce11e5d",
+    "url": "/ibv-redesign/static/js/2.e592c06e.chunk.js"
   },
   {
     "revision": "e630b3554c3090718215592f65483333",
     "url": "/ibv-redesign/static/media/hero-image.e630b355.jpg"
-  },
-  {
-    "revision": "1ca1afab8a80a935025a0606395c9d10",
-    "url": "/ibv-redesign/static/media/background.1ca1afab.jpg"
   },
   {
     "revision": "b751b41f694dbf6d95dfac235b088664",
@@ -124,7 +100,11 @@ self.__precacheManifest = [
     "url": "/ibv-redesign/static/media/API_Infographic_snipit.d9269a52.jpg"
   },
   {
-    "revision": "30dcad5324f36a508d68b35a76c13213",
+    "revision": "1ca1afab8a80a935025a0606395c9d10",
+    "url": "/ibv-redesign/static/media/background.1ca1afab.jpg"
+  },
+  {
+    "revision": "b1af1af20ab3d8cbdd4791a879804131",
     "url": "/ibv-redesign/index.html"
   }
 ];
