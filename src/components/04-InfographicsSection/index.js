@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import Card from '../Card'
 import data from './data/content.jsx'
 
 class InfographicSection extends React.Component{
@@ -8,7 +8,7 @@ class InfographicSection extends React.Component{
       <section className='Infographic'>
         <h1>Featured infographics</h1>
         <p>A visual approach to our data, analysis and recommendations</p>
-        <div className='cards-wrap'>
+        <div className='Infographic__cards-wrap'>
           <Card data={data[0]} />
           <Card data={data[1]} />
           <Card data={data[2]} />

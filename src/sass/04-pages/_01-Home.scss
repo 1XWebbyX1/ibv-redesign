@@ -1,0 +1,50 @@
+.Home{
+  @include position(relative, 0, 0);
+  color: white;
+  background: black;
+  font-size: calc(1em + 0.5vw);
+  margin: 0;
+  padding: 0;
+
+  &__hero-img{
+    @include position(absolute, -50px, 40%);
+    @include size(auto, 54vh);
+    box-shadow: none;
+    @include img-mask(
+      linear-gradient(to left, rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.7),
+      rgba(255, 255, 255, 0.1))
+    );
+    @include respond-to($small-screen){
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__content{
+    @include position(absolute, 10%, 3%);
+    text-shadow: 0 0 20px #000;
+    z-index: 999;
+    .services-link{
+      color: $primary-blue;
+      margin-bottom: 10%;
+    }
+ }
+
+ .figure{
+    @include position(relative, 0, 0);
+    @include size(auto, 45vh);
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    @include img-mask(
+      linear-gradient(to left, black 60%, rgba(0, 0, 0, 0.5) , rgba(255, 255, 255, 0.1))
+    );
+
+    &__mask{
+      @include position(absolute, 0, 0);
+      @include size(100%, 100%);
+      background: linear-gradient(to left,rgba(0,0,0,0.3), rgba(0,0,0,0.5), rgba(0,0,0,0.8), #152935);
+      z-index: 99;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Home from './01-Home';
-import Navbar from './00-Navbar';
+import Navigation from './00-Navigation';
 import InfoSection from './02-InfoSection'
 import DataSection from './03-DataSection'
 import InfographicSection from './04-InfographicsSection'
@@ -11,7 +11,7 @@ class Wrapper extends Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Navigation />
         <Home />
         <InfoSection />
         <DataSection />

@@ -1,0 +1,36 @@
+.Infographic{
+  background: black;
+  color: white;
+  padding-bottom: 100px;
+  h1{
+    color: $main-theme-color;
+  }
+
+  &__cards-wrap{
+    @include display(center, center);
+    flex-wrap: wrap;
+    .Card{
+      margin: 1% 0.4%;
+      background: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0.2), rgba(0,0,0,0.5), #152935);
+      &__content{
+        padding: 10px;
+      }
+
+      &__link-wrap{
+        display: flex;
+        flex-direction: column;
+        padding: 2px 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        box-shadow: none;
+        a{
+          color: grey;
+          padding-bottom: 6px;
+        }
+        .icon{
+          display: none;
+        }
+      }
+    }
+  }
+}

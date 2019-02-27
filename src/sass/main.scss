@@ -1,25 +1,27 @@
 @charset 'UTF-8';
 
 @import
-    'abstracts/vars',
-    'abstracts/mixins';
+    '00-abstracts/vars',
+    '00-abstracts/mixins';
 
 @import
-    '00-generic/base';
+    '01-generic/base';
 
 @import
-    '01-components/toolbar',
-    '01-components/buttons',
-    '01-components/card';
+    '02-components/toolbar',
+    '02-components/buttons',
+    '02-components/dropdown',
+    '02-components/card';
 @import
-    '02-layout/header',
-    '02-layout/navigation',
-    '02-layout/sidemenu',
-    '02-layout/footer';
+    '03-layout/header',
+    '03-layout/navbar',
+    '03-layout/search-form',
+    '03-layout/sidemenu',
+    '03-layout/footer';
 
 @import
-    '03-pages/home',
-    '03-pages/info-section',
-    '03-pages/data-section',
-    '03-pages/infographic-section',
-    '03-pages/parallax-section';
+    '04-pages/01-Home',
+    '04-pages/02-InfoSection',
+    '04-pages/03-DataSection',
+    '04-pages/04-InfographicsSection',
+    '04-pages/05-ParallaxSection';

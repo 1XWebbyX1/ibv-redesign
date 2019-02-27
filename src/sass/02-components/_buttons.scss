@@ -1,0 +1,23 @@
+
+.btn{
+  display: inline-block;
+  margin: 5px 1%;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: black;
+
+  &--teal{
+    background: $teal;
+    border-color: $teal;
+  }
+  &--purple{
+    background: $purple;
+    border-color: $purple;
+    color: white;
+  }
+  &--white{
+    background: beige;
+    border-color: beige;
+    color: black;
+  }
+ }

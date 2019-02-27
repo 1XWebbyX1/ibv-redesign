@@ -1,0 +1,18 @@
+.header--nav{
+  @include display(flex-start, auto);
+  padding: 0 20px;
+  margin: 0;
+  color: $lighter-black;
+  .nav__heading{
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+  }
+  .dropdown{
+    font-weight: 500;
+    margin: 0 15px;
+    @include respond-to($medium-screen){
+      display: none;
+    }
+  }
+}

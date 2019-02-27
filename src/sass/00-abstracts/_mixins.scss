@@ -1,0 +1,30 @@
+
+@mixin respond-to($query){
+  @media only screen and #{$query}{
+    @content;
+ }
+}
+
+@mixin position($type, $top, $left){
+  position: $type;
+  top: $top;
+  left: $left;
+}
+
+@mixin img-mask($img){
+  mask-image: $img;
+  mask-size: cover;
+  mask-position: center;
+  mask-type: alpha;
+}
+
+@mixin size($width, $height){
+  width: $width;
+  height: $height;
+}
+
+@mixin display($hr-pos, $vr-pos){
+  display: flex;
+  justify-content: $hr-pos;
+  align-items: $vr-pos;
+}

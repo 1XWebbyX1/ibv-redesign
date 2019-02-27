@@ -1,0 +1,45 @@
+.toolbar{
+  @include size(100%, 50px);
+  @include display(space-around, center);
+  margin-top: 0;
+  color: white;
+  font-size: 16px;
+
+  &--sub-nav{
+    @include size(100%, 70px);
+    background: #111;
+    font-size: calc(16px+ 0.2vw);
+    a{
+      cursor: pointer;
+      &:hover{
+       color: $main-theme-color;
+      }
+    }
+    @include respond-to($small-screen){
+      @include size(100%, 200px);
+      @include display(space-around, flex-start);
+      flex-direction: column;
+      a{
+        margin: 0 10px;
+      }
+    }
+   }
+
+  &--icons{
+   color: grey;
+   background: #212121;
+   border-top: 0.5px solid $main-theme-color;
+   font-size: calc(16px + 0.3vw);
+   cursor: default;
+   .icon{
+     cursor: pointer;
+     &:hover{
+      color: white;
+     }
+    }
+  }
+
+  &--descriptor{
+   font-size: 18px;
+  }
+}

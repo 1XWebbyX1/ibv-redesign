@@ -1,0 +1,43 @@
+.header{
+  @include size(100%, 50px);
+  @include display(space-between, center);
+  background: white;
+  color: black;
+  border-bottom: 1px solid #ececec;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  z-index: 9999;
+  &__logo{
+    @include size(auto, 70px);
+    padding: 0 20px;
+  }
+  .menu-wrap{
+    @include display(flex-start, center);
+  }
+
+  &__account-menu{
+    @include size(100px, 50px);
+    @include display(space-around, center);
+    box-sizing: border-box;
+    padding: 5px;
+    .dropdown{
+      color: #626262;
+      font-size: 18px;
+      .dropdown__content{
+        left: -100px;
+        height: 130px;
+        width: 150px;
+      }
+    }
+  }
+  &__menu-icon{
+    cursor: pointer;
+  }
+  .dropdown{
+    position: relative;
+    display: inline-block;
+    &:hover{
+     color: $primary-blue;
+    }
+   }
+}

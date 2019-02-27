@@ -1,0 +1,16 @@
+.Parallax{
+  padding: 0;
+  color: white;
+  background: url('image/background.jpg') no-repeat fixed right;
+  background-size: cover;
+
+  &__content{
+    @include size(100%, 100%);
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-shadow: 0 0 10px #000;
+    height: 35vh;
+    padding: 40px 10px;
+    font-size: calc(1em + 0.8vw);
+  }
+}

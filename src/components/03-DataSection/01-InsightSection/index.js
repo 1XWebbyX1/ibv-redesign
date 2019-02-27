@@ -1,6 +1,6 @@
 import React from 'react'
 import PopularInsight from './PopularInsight'
-import Card from '../Card'
+import Card from '../../Card'
 import data from './data/content.jsx'
 
 class InsightSection extends React.Component{
